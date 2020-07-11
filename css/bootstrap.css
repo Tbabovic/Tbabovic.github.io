@@ -6842,7 +6842,7 @@ a.close.disabled {
   position: relative;
   width: 100%;
   overflow: hidden;
-  padding-left: 100px;
+  
   margin: 0;
   display: block;
 }
@@ -7041,14 +7041,15 @@ a.close.disabled {
 .carousel-caption {
   position: absolute;
   right: 15%;
-  bottom: 20px;
-  left: 15%;
+  bottom: 40%;
   z-index: 10;
   padding-top: 20px;
   padding-bottom: 20px;
   color: #000000;
-  text-align: center;
+  text-align: end;
+  
 }
+
 
 @-webkit-keyframes spinner-border {
   to {
@@ -7805,6 +7806,7 @@ button.bg-dark:focus {
 }
 
 @media (min-width: 576px) {
+
   .flex-sm-row {
     -webkit-box-orient: horizontal !important;
     -webkit-box-direction: normal !important;
@@ -7867,12 +7869,12 @@ button.bg-dark:focus {
   .justify-content-sm-start {
     -webkit-box-pack: start !important;
         -ms-flex-pack: start !important;
-            justify-content: flex-start !important;
+            justify-content: start !important;
   }
   .justify-content-sm-end {
     -webkit-box-pack: end !important;
         -ms-flex-pack: end !important;
-            justify-content: flex-end !important;
+            justify-content: end !important;
   }
   .justify-content-sm-center {
     -webkit-box-pack: center !important;
@@ -7961,6 +7963,7 @@ button.bg-dark:focus {
     -ms-flex-item-align: stretch !important;
         align-self: stretch !important;
   }
+
 }
 
 @media (min-width: 768px) {
@@ -9455,6 +9458,9 @@ button.bg-dark:focus {
   .mx-sm-auto {
     margin-left: auto !important;
   }
+  .body-sm {
+    padding-top: 10rem !important;
+  }
 }
 
 @media (min-width: 768px) {
@@ -9800,9 +9806,15 @@ button.bg-dark:focus {
   .mx-md-auto {
     margin-left: auto !important;
   }
+  .body-md {
+    padding-top: 10rem !important;
+  }
 }
 
 @media (min-width: 992px) {
+  .body-lg {
+    padding-top: 10rem !important;
+  }
   .m-lg-0 {
     margin: 0 !important;
   }
@@ -10144,6 +10156,9 @@ button.bg-dark:focus {
   .ml-lg-auto,
   .mx-lg-auto {
     margin-left: auto !important;
+  }
+  .carousel-lg-pl{
+    padding-left: 6.5rem !important;
   }
 }
 
@@ -10548,6 +10563,7 @@ button.bg-dark:focus {
   .text-sm-center {
     text-align: center !important;
   }
+  
 }
 
 @media (min-width: 768px) {
@@ -11028,3 +11044,4 @@ footer {
   height: 70px;
   box-shadow: 0 -1rem 3rem rgba(0, 0, 0, 1)
 }
+
